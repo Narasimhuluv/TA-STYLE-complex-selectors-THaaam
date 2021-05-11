@@ -195,6 +195,31 @@ section{
     margin-top: 1.5rem;
     background-color: rgb(89,191,194);
 }
+.monitering .shape{
+    clip-path: polygon(75% 0%, 90% 49%, 75% 100%, 0% 100%, 11% 50%, 0% 0%);
+}
+/* .monitering .buttonShape{
+    position: relative;
+} */
+
+/* .monitering .before_shape{
+    width:0rem;
+	height:0rem;
+	border-left:1.6rem solid rgb(255, 255, 255);
+	border-top:1.6rem solid transparent;
+	border-bottom:1.3rem solid transparent;
+	position: absolute;
+} */
+/* .monitering .front_shape{
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid rgb(89,191,194);
+	border-bottom: 23px solid transparent;
+    position: absolute;
+    right: 30.9rem;
+    top: 0;
+} */
 
 /* --------------------------------------weekly score---- */
 .weekly_score .heading{
@@ -329,8 +354,6 @@ tr:nth-child(odd){
 .cards .withLearn_a, .monitering .LearnMore{
     color: white;
 }
-
-
 /* --------------------------------start Your trail */
 .start_trail_inside{
     padding: 6rem 0;
@@ -381,7 +404,7 @@ footer nav{
     margin-top: 2rem;
 }
 
-
+/* ----------------------------------------------------------------------------------------- */
 @media screen and (max-width : 768px) {
     html{
         font-size: 12px;
@@ -408,7 +431,6 @@ footer nav{
         background: #83a3d4d7;  
         background: -webkit-linear-gradient(to right, #b6fbff, #83a3d4c9);  
         background: linear-gradient(to right, #b6fbff, #83a3d4d7); 
-
     }
     header li{
         position: relative;
@@ -419,8 +441,6 @@ footer nav{
     header a{
         font-size: 2rem;
     }
-   
-
     .container{
         width: 90%;
     }
@@ -471,9 +491,13 @@ footer nav{
     .hero_section{
         height: 46vh;
     }
+    
     .flex_42{
         flex: 0 1 100%;
         text-align: center;
+    }
+    .files a{
+        font-size: 4rem;
     }
     .join_us .cards .article{
         padding: 1rem 2rem;
@@ -483,25 +507,5 @@ footer nav{
        font-size: 3rem;
     }
 }
-/* @media screen and (max-width : 1025px) {
-    html{
-        font-size: 14px;
-    }
-    .hero_section{
-        height: 65vh;
-    }
-    .container{
-        width: 90%;
-    }
-    .flex_50{
-        flex: 0 1 90%;
-    }
-    .hero_section img{
-        margin-top: 9rem;
-        
-    }
-    .hero_section .heading{
-        margin-top: 10rem;
-     }
-} */
+
 
